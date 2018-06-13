@@ -1,0 +1,101 @@
+#head-nav-v {
+	width:110px;
+	height:36px;
+	background: #ffffff;
+	z-index:12;
+	position: absolute;
+	left: 683px;
+	top: 47px;
+}
+#head-nav-v ul, #head-nav-v ul li { /* reset values for list elements */
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#head-nav-v ul li a { /* set default valuse for nav items */
+	display: block; /* make a tags act like divs */
+	float: right; /* align them to the right */
+	clear: right; /* stack them */
+	height: 18px;
+	width: 110px;
+	text-indent: -9999px; /* hide the default text */
+}
+/* set background images */
+#head-nav-v-1 a {
+	background: #ffffff url(images/nav-v-11.jpg) left top no-repeat;
+}
+#head-nav-v-1 a:hover {
+	background: #ffffff url(images/nav-v-11-on.jpg) left top no-repeat;
+}
+#head-nav-v-2 a {
+	background: #ffffff url(images/nav-v-12.jpg) left top no-repeat;
+}
+#head-nav-v-2 a:hover {
+	background: #ffffff url(images/nav-v-12-on.jpg) left top no-repeat;
+}
+#head-nav-v-3 a {
+	background: #ffffff url(images/nav-v-13.jpg) left top no-repeat;
+}
+#head-nav-3 a:hover {
+	background: #ffffff url(images/nav-v-13-on.jpg) left top no-repeat;
+}
+
+#head-nav-h {
+	width:828px;
+	/* height:29px; */
+	background: #ffffff;
+	z-index:18;
+	position: absolute;
+	border-top:    solid #000000 1px;
+	border-bottom: solid #000000 1px;
+	text-align:left;
+	top: 149px;
+	left: 0px;
+}
+#head-nav-h ul, #head-nav-h ul li { /* reset values for list elements */
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	height:29px;
+}
+#head-nav-h ul li {
+	float: left;
+}
+#head-nav-h ul li a { /* set default styles for nav items */
+	display: block; /* make a tags act like divs */
+	float: left;
+	height: 29px;
+	width: 158px; /* all of your images are the same size */
+	text-indent: -9999px; /* hide the default text */
+}
+/* Set background images for each nav link */
+#nav-h-who, #nav-h-who a  {
+	background: transparent url(../media/img/nav-h-01.jpg) left top no-repeat;
+}
+#nav-h-who a:hover {
+	background: transparent url(../media/img/nav-h-01-on.jpg) left top no-repeat;
+}
+#nav-h-what, #nav-h-what a {
+	background: transparent url(../media/img/nav-h-02.jpg) left top no-repeat;
+}
+#nav-h-what a:hover {
+	background: transparent url(../media/img/nav-h-02-on.jpg) left top no-repeat;
+}
+#nav-h-news, #nav-h-news a {
+	background: transparent url(../media/img/nav-h-03.jpg) left top no-repeat;
+}
+#nav-h-news a:hover {
+	background: transparent url(../media/img/nav-h-03-on.jpg) left top no-repeat;
+}
+#nav-h-where, #nav-h-where a {
+	background: transparent url(../media/img/nav-h-04.jpg) left top no-repeat;
+}
+#nav-h-where a:hover {
+	background: transparent url(../media/img/nav-h-04-on.jpg) left top no-repeat;
+}
+#nav-h-contact, #nav-h-contact a {
+	background: transparent url(../media/img/nav-h-05.jpg) left top no-repeat;
+}
+#nav-h-contact a:hover {
+	background: transparent url(../media/img/nav-h-05-on.jpg) left top no-repeat;
+}
